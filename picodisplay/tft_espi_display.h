@@ -10,6 +10,7 @@ class DisplayController : public Component
 {
 	double barSize = 0;
 	public:
+	TFT_eSPI tft = TFT_eSPI();
 	std::string time = "init";
 	void setup() override {
 		tft.init();
@@ -40,7 +41,7 @@ class DisplayController : public Component
 	}
 
 	private:
-	TFT_eSPI tft = TFT_eSPI();
+	
 };
 DisplayController * displayControllerComponent = new DisplayController();
 
