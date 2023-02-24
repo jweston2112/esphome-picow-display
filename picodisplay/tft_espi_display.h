@@ -19,7 +19,7 @@ class DisplayController : public Component
 		tft.setFreeFont(FSB18);
 	}
 
-	void drawString(std::string text, int xpos, int ypos) {
+	void drawString(std::string text, int32_t xpos, int32_t ypos) {
 	  	//tft.setTextColor(TFT_RED, TFT_BLACK);
 		tft.drawString(text.c_str(), xpos, ypos, GFXFF);
 	}
