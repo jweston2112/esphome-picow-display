@@ -18,10 +18,10 @@ When the board has connected, click "install" and select the firmware that you h
 When the firmware has been written to the board you will need to unplug and reconnect the USB cable.
 
 Also modify the User_Setup_Select.h to include the Hardware Setup Indformation
-'''c++
+```c++
 //#include <User_Setup.h>           // Default setup is root library folder
 #include <User_Setups/HackerBox_Weather_Pi.h>
-'''
+```
 ## Expanding on this for use in Home Assistant
 In a file editor, you will need to move the line ```TFT_eSPI tft = TFT_eSPI();``` from the Private: section at the bottom of /esphome/picodisplays/tft_espi_display.h
 And move it to under the Public section towards the top of the file as so:
