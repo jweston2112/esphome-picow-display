@@ -1,4 +1,4 @@
-# rpipicow-esphome
+# esphome-picow-display
 Raspberry PI Pico W running ESPHome using TFT_eSPI
 
 ## Installation
