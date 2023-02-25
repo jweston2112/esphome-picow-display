@@ -2,6 +2,7 @@
 #include <TFT_eSPI.h>
 #include "esphome.h"
 #include "Free_Fonts.h"
+#include "bitmaps.h"
 
 #ifndef DISPLAYCONTROLLER
 #define DISPLAYCONTROLLER
