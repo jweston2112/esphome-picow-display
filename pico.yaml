@@ -43,8 +43,6 @@ time:
   - platform: homeassistant
     id: ha_time
     timezone: "${time_timezone}"
-    on_time_sync:
-      - component.update: uptime_human
 
 # **********************************************************
 #   ILI9341 DISPLAY using TFT_eSPI
