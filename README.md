@@ -1,6 +1,8 @@
 # esphome-picow-display
 Raspberry PI Pico W running ESPHome using TFT_eSPI
+
 Forked From https://github.com/landonr/lilygo-tdisplays3-esphome
+
 Modiied for PICO W and ILI9341 TFT Display
 
 ## Installation
