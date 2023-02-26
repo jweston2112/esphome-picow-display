@@ -1,5 +1,7 @@
 # esphome-picow-display
 Raspberry PI Pico W running ESPHome using TFT_eSPI
+Forked From https://github.com/landonr/lilygo-tdisplays3-esphome
+Modiied for PICO W and ILI9341 TFT Display
 
 ## Installation
 You will first need to do a manual installation by putting the pico.yaml file into your esphome folder then using the modern format in ESPHome to get a local copy of the firmware and finally use https://web.esphome.io/ to install over USB.
