@@ -7,7 +7,7 @@ esphome:
   includes:
     - picodisplay/tft_espi_display.h
     - picodisplay/Free_Fonts.h
-    - picodisplay/bitmaps.h
+    # optional - picodisplay/bitmaps.h
   libraries:
     - SPI
     - picodisplay=https://github.com/jweston2112/esphome-picow-display
